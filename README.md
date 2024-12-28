@@ -38,80 +38,18 @@ Ensure the following tools are installed on your Linux system before running Sys
 
 ---
 
-### Usage Examples
-
-#### Help Command
-Display all available commands and usage examples.  
-```bash
-$ sysopctl --help
-```  
-
-#### Version Command  
-View the current version of SysOpCTL.  
-```bash
-$ sysopctl --version
-```  
-
-#### Service Management
-List all active services:  
-```bash
-$ sysopctl service list
-```  
-
-Start a specific service:  
-```bash
-$ sysopctl service start <service-name>
-```  
-
-Stop a specific service:  
-```bash
-$ sysopctl service stop <service-name>
-```  
-
-#### System Monitoring  
-Check the current system load:  
-```bash
-$ sysopctl system load
-```  
-
-Monitor active processes in real-time:  
-```bash
-$ sysopctl process monitor
-```  
-
-#### Disk Usage  
-View disk usage by partition:  
-```bash
-$ sysopctl disk usage
-```  
-
-#### Log Analysis  
-Analyze recent critical system logs:  
-```bash
-$ sysopctl logs analyze
-```  
-
-#### File Backup  
-Initiate a backup of a specified directory:  
-```bash
-$ sysopctl backup <directory-path>
-```  
-
----
-
 ### Screenshots
 
 #### Help Command  
 Displays detailed usage instructions and examples.  
-![Help Command Screenshot](https://github.com/user-attachments/assets/7bf719c8-48c0-443f-bc43-dba099bc0213)  
+![help](https://github.com/user-attachments/assets/c2284d66-2dec-4486-ac34-15bce10cbe3f)
 
 #### Version Command  
 Displays the current version of SysOpCTL.  
-![Version Command Screenshot](https://github.com/user-attachments/assets/5d8cd22f-27b0-4dbe-b6fe-a0839ae1062e)  
+![version](https://github.com/user-attachments/assets/db28fbd3-0c2a-42ff-ac95-2344acf99f61)
 
 #### Disk Usage  
 Shows disk usage across all mounted partitions.  
-![Disk Usage Screenshot](https://github.com/user-attachments/assets/87bc7d26-8c43-4081-845d-668221bc655d)  
+![disk_usage](https://github.com/user-attachments/assets/07b6a393-bbbd-4c9c-9cbd-4d094993b3f8)
 
 ---
-
